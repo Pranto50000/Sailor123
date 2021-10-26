@@ -239,10 +239,10 @@ a{
 .fbt button{
     height: 40px;
     padding: 0px 10px;
-    background-color: rgb(93, 162, 240);
+    background-color: #d9232d;
     color: white;
     font-weight: bolder;
-    border: 1px solid rgb(93, 162, 240);
+    border: 1px solid #d9232d;
 }
 
 /* last_footer */
