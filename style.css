@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* navber */
+
+.logo{
+    width: 58%;
+}
+
+.logo a{
+    font-weight: 700;
+    color: #556270;
+    font-size: 30px;
+}
+.nav-link{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(224, 15, 15);
+}
+
+
+/* slider */
+
+
+.carousel-caption{
+    top: 30%;
+}
+.carousel-caption h5{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.carousel-caption button{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 7px;
+    transition: 0.5s;
+    line-height: 1;
+    color: #fff;
+    animation-delay: 0.8s;
+    background: #d9232d;
+}
+.carousel-caption p{
+    animation-delay: 0.4s;
+    margin: 0 auto 30px auto;
+    color: #fff;
+}
+
+
+/* hero1 */
+.hero1{
+    margin-top: 30px;
+}
+.he-1 h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #556270;
+}
+.he-1 h5{
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 24px;
+    color: #44446E;
+}
+
+.tik{
+    display: flex;
+}
+.tik i{
+    margin: 10px;
+    color: rgb(224, 15, 15);
+}
+.itl{
+    font-style: italic;
+}
+
+
+
+
+.any-logo{
+    width: 100%;
+    background: #F8F9FA;
+}
+.col-2{
+    justify-content: center;
+}
+.col-2 img{
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+}
+.col-2 img:hover{
+        filter: none;
+    transform: scale(1.15);
+}
+.img-2{
+    width: 13%;
+}
+.img-2 i{
+    font-size: 57px;
+    margin: 16px;
+    color: #d9232d;
+
+}
+.mb-3{
+    background: #F8F9FA;
+    padding: 8px 7px;
+}
+.bak{
+    background: red;
+}
+.lakha1{
+    width: 87%;
+}
+.lakha1 h4{
+    color: #556270;
+    transition: 0.3s;
+}
+.lakha1 h4:hover{
+    color: #e24d55;
+    text-decoration: none;
+}
+.lakha1 p{
+    line-height: 24px;
+    font-size: 14px;
+}
+.pad{
+    margin-top: 50px;
+}
+
+
+
+
+
+/* button */
+
+.btna{
+    text-align: center;
+    margin: 20px 0px;
+}
+.btna button{
+    margin: 0px 20px;
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.btna :nth-child(1){
+    background-color: #d9232d;
+    color: white;
+}
+.btna button:hover{
+    background-color: #d9232d;
+    color: white;
+}
+
+
+.portfolio{
+    margin: 30px 0px;
+}
+.col-4 img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+/* footer */
+
+.footer{
+    color: white;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #515D6A;
+}
+.footer h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer h2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.fpp-1{
+    margin: 25px 0px;
+}
+.fpp-1 p span{
+    font-weight: bolder;
+}
+
+.ficon i{
+    background-color: #868d94;
+    padding: 10px;
+    border-radius: 15%;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+.ficon i:hover{
+    background-color: #d9232d;
+}
+.ff-2 i{
+    color: rgb(131, 215, 236);
+}
+.ff-2 a{
+    margin-left: 10px;
+    color: white;
+}
+.fff-2 p{
+    font-size: 20px;
+}
+.fbt input{
+    height: 40px;
+    width: 205px;
+}
+.fbt button{
+    height: 40px;
+    padding: 0px 10px;
+    background-color: rgb(93, 162, 240);
+    color: white;
+    font-weight: bolder;
+    border: 1px solid rgb(93, 162, 240);
+}
+
+/* last_footer */
+.last_footer{
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #4a5562;
+    color: white;
+}
+.last_footer span{
+    color:#9eccf4;
+}
